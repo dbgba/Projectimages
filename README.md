@@ -22,6 +22,7 @@
 1.通过微信来控制ElectronBot
 
 使用Accessible技术获取指定联系人的信息做为控制信号，即可实现比如：收到ElectronBot姿势参数后，调用SDK完成动作。
+
 [演示截图.png]
 
 
@@ -63,38 +64,8 @@ ElectronBot在每次接入USB时都会以默认花屏显示，此辅助示例通
 在日常调试ElectronBot时，需要打开上位机调整对应参数后，再同步到ElectronBot。而AutoHotkey就是为设置键盘快捷键而生的，示例简单演示了F1、F2、F3为头部上下和姿势归位，上下键为左手的抬起放下，左右键为右手的抬起放下。
 
 
-
-
-:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-
-等待下载完成后，软件会**自动解压**并**适配手势识别**功能。
-
-[下载中.png]
-
-之后就可以对你的**摄像头**进行**手势识别**控制了。下图示例为：当**双手抬起**并**竖起大拇指**时，就**执行打开网页并放大网页**。
-
-[添加手势代码.png]
-
-软件还附带了**调用Windows自带API**来实现的**免费语音助手**。下图示例为：说出**电子电子**唤醒语音识别后，再说出关键字**启动游戏大厅**即可执行对应的**自定义流程**。
-
-[添加语音识别代码.png]
-
-更多**玩法**和用法，请详见**设置**与**帮助**的具体说明。例如：**当摄像头中有人时，自动切换到虚拟桌面。**
-想创造更多自动化玩法组合，可使用软件附带的**生成快捷代码**和[AHK中文帮助文档](https://www.autoahk.com/help/autohotkey/zh-cn/docs/commands/WinActive.htm)来实现自己的**定制需求**。
-
-# 注意事项
-
-* 此exe文件为[AutoHotkey](https://github.com/Lexikos/AutoHotkey_L)开源项目，请将其加入杀毒-信任区。避免不必要的麻烦。
-
-* 手势识别需要借助电脑的摄像头实现（任意摄像头都行），而语音识别需要接电脑麦克风实现。由于语音识别是调用Windows自带API来实现的，有些系统为了缩减体积会删掉此语音识别播报API导致无效。用原版镜像上安装的系统基本都不会出这问题。
-
-* 我添加了4个手势依赖包的镜像源供高速下载，如果出现某个镜像源无法下载的情况。可根据弹出提示点击重新换源下载即可。如果镜像源和官方源自动下载都失效，只能自行想办法从官方GitHub下载"GoogleMediapipePackageDll-main.zip"压缩包后，将压缩包存放在"Lib"目录中，重启软件即可识别压缩包并解压适配手势识别功能。
-
-
 # 感谢以下项目
 
 >[peng-zhihui/ElectronBot: Open Source Desktop Robotics Project](https://github.com/peng-zhihui/ElectronBot)
 >
 >[Lexikos/AutoHotkey_L: AutoHotkey - macro-creation and automation-oriented scripting utility for Windows. (github.com)](https://github.com/Lexikos/AutoHotkey_L)
->
->[HW140701/GoogleMediapipePackageDll: package google mediapipe hand and holistic tracking into a dynamic link library](https://github.com/HW140701/GoogleMediapipePackageDll)
