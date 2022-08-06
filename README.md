@@ -5,9 +5,10 @@
 
 # 使用介绍
 测试环境：Win10 64位（专业版完整镜像）
+
 **第一次运行 Visual_Gesture_Recognition.exe**时，会提示下载手势识别的**依赖包**。点击**确定**后，跟着提示**点击自动下载**。
 
-![](https://gcore.jsdelivr.net/gh/dbgba/HTTPRemoteConsole@master/Preview.jpg)
+![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages/blob/master/VisualGestureRecognition/%E4%B8%8B%E8%BD%BD%E4%BE%9D%E8%B5%96%E5%8C%85.jpg)
 [下载依赖包.png]
 
 等待下载完成后，软件会**自动解压**并**适配手势识别**功能。
