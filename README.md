@@ -20,6 +20,7 @@
 调用Accessible(无障碍)获取指定联系人的信息做为控制信号，即可实现比如：收到ElectronBot姿势参数后，调用SDK完成动作。
 
 ![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E4%B8%8B%E8%BD%BD%E4%BE%9D%E8%B5%96%E5%8C%85.jpg)
+　
 [演示截图.png]
 
 
@@ -29,6 +30,7 @@
 
 [3.将引出的线接到继电器.jpg]
 
+　
 
 **3.量子纠缠Demo半成品**
 
@@ -48,6 +50,7 @@
 
 [推荐手势设置.jpg]
 
+　
 
 **6.语音唤醒并调用ElectronBot表情**
 
@@ -60,6 +63,7 @@
 ElectronBot在每次接入USB时都会以默认花屏显示，此辅助示例通过注册USB设备监控事件来让每次接入的时，ElectronBot可以立即同步指定表情或姿势。
 
 　
+
 **8.热键快速调试ElectronBot**
 
 在日常调试ElectronBot时，需要打开上位机调整对应参数后，再同步到ElectronBot。而AutoHotkey就是为设置键盘快捷键而生的，示例简单演示了F1、F2、F3为头部上下和姿势归位，F4选择同步表情文件，上下键为左手的抬起放下，左右键为右手的抬起放下。
