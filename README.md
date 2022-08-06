@@ -7,13 +7,16 @@
 * 测试环境：Win10 64位（专业版完整镜像）
 
 * **第一次运行 Visual_Gesture_Recognition.exe**时，会提示下载手势识别的**依赖包**。点击**确定**后，跟着提示**点击自动下载**。
-![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E4%B8%8B%E8%BD%BD%E4%BE%9D%E8%B5%96%E5%8C%85.jpg)
+
+　　![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E4%B8%8B%E8%BD%BD%E4%BE%9D%E8%B5%96%E5%8C%85.jpg)
 
 * 等待下载完成后，软件会**自动解压**并**适配手势识别**功能。
-![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E4%B8%8B%E8%BD%BD%E4%B8%AD.jpg)
+
+　　![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E4%B8%8B%E8%BD%BD%E4%B8%AD.jpg)
 
 * 之后就可以对你的**摄像头**进行**手势识别**控制了。下图示例为：当**双手抬起**并**竖起大拇指**时，就**执行打开网页并放大网页**。
-![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E6%B7%BB%E5%8A%A0%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81.jpg)
+
+　　![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E6%B7%BB%E5%8A%A0%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81.jpg)
 
 * 软件还附带了**调用Windows自带API**来实现的**免费语音助手**。下图示例为：说出**电子电子**唤醒语音识别后，再说出关键字**启动游戏大厅**即可执行对应的**自定义流程**。
 
