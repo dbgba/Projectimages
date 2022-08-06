@@ -75,3 +75,5 @@ ElectronBot在每次接入USB时都会以默认花屏显示，此辅助示例通
 >[peng-zhihui/ElectronBot: Open Source Desktop Robotics Project](https://github.com/peng-zhihui/ElectronBot)
 >
 >[Lexikos/AutoHotkey_L: AutoHotkey - macro-creation and automation-oriented scripting utility for Windows. (github.com)](https://github.com/Lexikos/AutoHotkey_L)
+>
+>[opencv/opencv: Open Source Computer Vision Library (github.com)](https://github.com/opencv/opencv)
