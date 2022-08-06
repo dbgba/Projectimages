@@ -1,16 +1,13 @@
 # 项目简介
-* 这是基于稚晖君[ElectronBot
-](https://github.com/peng-zhihui/ElectronBot)的SDK扩展应用的玩法示例项目，使用AutoHotkey来进行SDK调用与演示
+* 这是基于稚晖君[ElectronBot](https://github.com/peng-zhihui/ElectronBot)的SDK玩法扩展示例项目，使用AutoHotkey来进行SDK调用与演示
 
-* 因为[AutoHotkey
-](https://www.autohotkey.com/)是脚本语言，用记事本即可编辑.ahk文件，和批处理.bat原理类似。对于想要修改自定义参数的可编辑.ahk文件，保存运行即可。无需前端界面
+* 因为[AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)是脚本语言，用记事本即可编辑.ahk文件，和批处理.bat原理类似。对于想要修改自定义参数的可编辑.ahk文件，保存运行即可。无需前端界面
 
 
 # 使用介绍
-* 虽然AHK可以将解释器与.ahk脚本设为同名，免安装使用。但是为了方便调试使用，但是建议到[AutoHotkey
-](https://www.autohotkey.com/download/ahk-install.exe)官网下载安装一下【建议使用默认选项安装】。毕竟安装包就3MB大小，能避免不必要的麻烦。
+* 虽然AHK可以将解释器与.ahk脚本设为同名，免安装使用。但是为了方便调试使用，但是建议到[AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)官网下载安装一下【建议使用默认选项安装】。毕竟安装包就3MB大小，能避免不必要的麻烦。
 
-* 安装好AutoHotkey后，就可以对.ahk文件右键选**Edit Script**来编辑脚本了。项目所有示例中我只保留适配与ElectronBot相关的代码，而实际使用中我们可以使用AHK自身对电脑状态的判断和调用来实现很多的功能。
+* 安装好[AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe)后，就可以对.ahk文件右键选**Edit Script**来编辑脚本了。项目所有示例中我只保留适配与ElectronBot相关的代码，而实际使用中我们可以使用AHK自身对电脑状态的判断和调用来实现很多的功能。
 * 例如：判断时间来设置电脑音量、当ElectronBot做姿势后，跟着播报自定义语音、判断进程状态决定开关某程序等等。需要根据自身情况查看[AHK中文帮助文档](https://www.autoahk.com/help/autohotkey/zh-cn/docs/commands/WinActive.htm)或使用对应函数类库做具体实现。
 
 
@@ -20,9 +17,9 @@
 
 **1.通过微信来控制ElectronBot**
 
-使用Accessible技术获取指定联系人的信息做为控制信号，即可实现比如：收到ElectronBot姿势参数后，调用SDK完成动作。
+调用Accessible(无障碍)获取指定联系人的信息做为控制信号，即可实现比如：收到ElectronBot姿势参数后，调用SDK完成动作。
 
-　　![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E4%B8%8B%E8%BD%BD%E4%BE%9D%E8%B5%96%E5%8C%85.jpg)
+![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E4%B8%8B%E8%BD%BD%E4%BE%9D%E8%B5%96%E5%8C%85.jpg)
 [演示截图.png]
 
 
