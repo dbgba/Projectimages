@@ -17,9 +17,9 @@
 
 * 软件还附带了**调用Windows自带API**来实现的**免费语音助手**。下图示例为：说出**电子电子**唤醒语音识别后，再说出关键字**启动游戏大厅**即可执行对应的**自定义流程**。
 
-![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E6%B7%BB%E5%8A%A0%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E4%BB%A3%E7%A0%81.jpg)
+　　![](https://gcore.jsdelivr.net/gh/dbgba/Projectimages@master/VisualGestureRecognition/%E6%B7%BB%E5%8A%A0%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E4%BB%A3%E7%A0%81.jpg)
 
- 
+　
 
 * 更多**玩法**和用法，请详见**设置**与**帮助**的具体说明。例如：**当摄像头中有人时，自动切换到虚拟桌面。**
 想创造更多自动化玩法组合，可使用软件附带的**生成快捷代码**和[AHK中文帮助文档](https://www.autoahk.com/help/autohotkey/zh-cn/docs/commands/WinActive.htm)来实现自己的**定制需求**。
