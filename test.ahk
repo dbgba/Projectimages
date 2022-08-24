@@ -22,6 +22,7 @@ Server.SetPaths(paths)
 HTTP服务端口 := 8866
 Server.Serve(HTTP服务端口)
 Run "http://127.0.0.1:%HTTP服务端口%/" ; 启动脚本后打开控制台网页【这句可删除】
+MsgBox 测试修改
 Return
 
 
